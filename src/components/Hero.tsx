@@ -32,7 +32,13 @@ const Hero = () => {
                 Get Started
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button variant="outline" className="border-white/20 bg-white/5 hover:bg-white/10 text-lg px-8 py-6">
+              <Button 
+                variant="outline" 
+                className="border-white/20 bg-white/5 hover:bg-white/10 text-lg px-8 py-6"
+                onClick={() => {
+                  document.getElementById('solutions')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 Our Solutions
               </Button>
             </div>
