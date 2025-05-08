@@ -17,7 +17,10 @@ const Navbar = () => {
           <NavLink href="#contact">Contact</NavLink>
         </nav>
 
-        <Button className="bg-gradient-primary hover:opacity-90 transition-opacity">
+        <Button 
+          className="bg-gradient-primary hover:opacity-90 transition-opacity"
+          onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+        >
           Contact Us
         </Button>
       </div>
