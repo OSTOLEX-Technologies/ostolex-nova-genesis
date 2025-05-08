@@ -66,38 +66,20 @@ const ContactSection = () => {
               </form>
             </div>
             
-            <div className="bg-gradient-primary p-8 lg:p-12 flex flex-col justify-between">
-              <div>
-                <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
-                <div className="space-y-6 text-white">
-                  <div>
-                    <p className="text-white/70 mb-1">Email</p>
-                    <p className="font-medium">contact@ostolex.com</p>
-                  </div>
-                  <div>
-                    <p className="text-white/70 mb-1">Phone</p>
-                    <p className="font-medium">+1 (555) 123-4567</p>
-                  </div>
-                  <div>
-                    <p className="text-white/70 mb-1">Address</p>
-                    <p className="font-medium">123 Blockchain Avenue<br />Tech District, CA 94103</p>
+            <div className="p-8 lg:p-12 flex flex-col justify-center items-center bg-white/5">
+              <div className="text-center max-w-md">
+                <h3 className="text-2xl font-bold mb-4">Contact Us Directly</h3>
+                <div className="flex items-center justify-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-ostolex-purple/20 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-ostolex-purple" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
                   </div>
                 </div>
-              </div>
-              
-              <div className="mt-12">
-                <p className="text-lg font-medium mb-4">Follow us</p>
-                <div className="flex space-x-4">
-                  {["Twitter", "LinkedIn", "GitHub", "Discord"].map((platform) => (
-                    <a 
-                      key={platform} 
-                      href="#" 
-                      className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
-                    >
-                      {platform.charAt(0)}
-                    </a>
-                  ))}
-                </div>
+                <a href="mailto:contact@ostolex.com" className="text-xl font-medium ostolex-gradient-text hover:opacity-80 transition-opacity">
+                  office@ostolex.com
+                </a>
               </div>
             </div>
           </div>

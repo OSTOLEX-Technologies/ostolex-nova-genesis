@@ -14,7 +14,6 @@ const Navbar = () => {
           <NavLink href="#home" active>Home</NavLink>
           <NavLink href="#services">Services</NavLink>
           <NavLink href="#solutions">Solutions</NavLink>
-          <NavLink href="#about">About</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </nav>
 

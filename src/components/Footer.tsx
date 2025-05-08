@@ -9,14 +9,14 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/50 text-sm mb-4 md:mb-0">
-            © 2025 OSTOLEX Limited, London, UK. All rights reserved.
+            © 2025 OSTOLEX Limited, London, UK. <br /> All rights reserved.
           </p>
           
           <a 
             href="mailto:contact@ostolex.com" 
             className="text-white/50 text-sm hover:text-white/80 transition-colors"
           >
-            contact@ostolex.com
+            office@ostolex.com
           </a>
         </div>
       </div>
